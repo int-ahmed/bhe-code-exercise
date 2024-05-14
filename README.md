@@ -14,8 +14,11 @@ The following command spins up the webserver on default port 8080 and enables it
 `mvn quarkus:dev`
 
 ### Available endpoints
-- http://localhost:8080/prime/{nThElement}
 
+- http://localhost:8080/prime/{nThElement} expected output example `2 3 5 ...`
+
+---
+<sup>Original README.md left for reference<sup/>
 ## The Sieve of Eratosthenes
 
 Prime numbers have many modern day applications and a long history in mathematics. Utilizing your own resources research the sieve of Eratosthenes, an algorithm for generating prime numbers. Based on your research, implement an API that allows the caller to retrieve the Nth prime number.
