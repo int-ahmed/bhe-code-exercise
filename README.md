@@ -1,5 +1,21 @@
 # BHE Software Engineer Coding Exercise
 
+## About Solution
+The Sieve has been implemented as a REST API using Java running Quarkus
+
+### System Requirements
+- Java 21 SDK
+
+### Running the application
+
+The application can be kicked off using the built-in features of IntelliJ as it picks up the maven configuration and builds the project accordingly.
+
+The following command spins up the webserver on default port 8080 and enables it for queries \
+`mvn quarkus:dev`
+
+### Available endpoints
+- http://localhost:8080/prime/{nThElement}
+
 ## The Sieve of Eratosthenes
 
 Prime numbers have many modern day applications and a long history in mathematics. Utilizing your own resources research the sieve of Eratosthenes, an algorithm for generating prime numbers. Based on your research, implement an API that allows the caller to retrieve the Nth prime number.
